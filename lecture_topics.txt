@@ -1,0 +1,65 @@
+Topics to Cover in the Lecture:
+===============================
+
+- Differences between classical and quantum mechanics
+	* Discuss the size of the quantum world and why we're interested
+	* Classical vs. relative vs. quantum (needed a new ruleset for speed-of-light and quantum things)
+
+- How could a probabilistic approach possibly be better? (recall that this confused you, too).
+	* Discuss the additional power of probability by discussing deterministic vs. probabilistic Turing
+	  machines and how probabilistic ones can solve the square root modulo a prime problem.
+
+- Compare classic probability to quantum probability (first page of online lecture notes in yellow of notebook)
+	* Probability amplitudes
+	* In comparing the two, mention quantum interference (bottom of first page of online lecture notes)
+
+- Quantum bits (qubits)
+	* Recall that classical bits are represented by electrical current on a wire (0mW = 0, +5mW = 1)
+	  and suggest that quantum bits are represented by atomic molecules (either by the excitement of
+	  an electron or the spin of something else).
+	* Introduce the two state vectors |0> and |1> (column vector form)
+	* Introduce the general column vector of a qubit being a linear combination of the two
+	  state vectors (superposition) (computing book pg.18 part 1.6.3) and that 
+	  prob1 squared + prob2 squared = 1 (Normalization Constraint)
+	* Possibly introduce phase factor (pg.18)
+	* Talk of how a qubic has exponentially more states than a classical bit
+	  (is the linear combination of states the reason for this?)
+
+- Single-qubit gates (NOT [X], Hadamard, Y, Z, etc.) (pg.8)
+	* Introduce the Evolution Postulate (pg.19)
+	* Mention that gates are unitary operators (pg.19)
+	* Introduce the role of linear algebra in quantum computing: using matrices for gates.
+	* Use "Insight into the formulation of matrices" in back of notebook
+
+- Demonstrate why Dirac notation is better (saves space) than column vectors
+	* Once you do this, preferably start using Dirac notation
+
+- Representing the state of multiple qubits (pg.9)
+	* 4-dimensional vectors
+	* Tensor products and equivalent forms (aside on pg.22)
+
+- Multi-qubit gates (CNOT, etc.) (pg.10)
+	* Use "Insight into the formulation of matrices" in back of notebook
+
+- Why quantum computing uses reversible gates (pg.11)
+	* What does it mean to be reversible?
+	* Demonstrate how to transform irreversible gates into reversible ones.
+	* Why does it? Find out and answer it.
+
+- Quantum circuits
+
+- Bell states
+	* Introduce entanglement
+
+- Quantum teleportation
+
+- Changing the probabilities of outcomes in a circuit
+
+- Why quantum computing is powerful for some things (but not everything)
+	* Shor's algorithm for factoring using primes
+
+- Bloch sphere
+	* Introduce the sine/cosine equivalent general form (bottom of pg.18)
+	* Introduce the Pauli gates and how they cause rotations about the Bloch sphere (pg.20)
+
+
