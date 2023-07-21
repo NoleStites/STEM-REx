@@ -1,0 +1,19 @@
+This file will contain a list of questions that arise as I am researching.
+I will be revisiting these questions over time to gain answers.
+====================================
+Unanswered:
+
+- How do you change the percentages of states?
+- Why are phases present in quantum computing if they just cancel out to 1?
+- Why are only reversable gates used in circuits?
+- How is the general state of a qubit written in terms of sine and cosine? And is this form purely for use on the
+  Bloch sphere?
+- What does it mean for a quantum gate to be a "unitary operator"
+====================================
+Answered (-ish):
+
+- How do qubits have exponentially more states than classical bits?
+	* So far, I believe this to be because a qubit's basis states (as represented by classical binary) are
+	  equivalent to normal bits, but those are a small subset of all of the possible states for a qubit
+	  (that is, the entangled states make ups the rest of the total states)
+
