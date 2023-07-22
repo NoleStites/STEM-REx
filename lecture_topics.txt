@@ -1,5 +1,10 @@
 Topics to Cover in the Lecture:
 ===============================
+An aside: after thinking about how best to give this lecture to an audience who might not know any linear algebra, I have
+	  decided that utilizing the Bloch Sphere (or perhaps the Q-Sphere) to represent the state of a qubit and actions upon it by logic gates would
+	  be a good choice.
+	  Information on the two spheres:
+	  (https://quantum-computing.ibm.com/lab/docs/iql/terms-glossary#term-backend:~:text=and%20simulators.-,Bloch%20sphere,-The%20Bloch%20sphere)
 
 - Differences between classical and quantum mechanics
 	* Discuss the size of the quantum world and why we're interested
@@ -7,7 +12,7 @@ Topics to Cover in the Lecture:
 
 - How could a probabilistic approach possibly be better? (recall that this confused you, too).
 	* Discuss the additional power of probability by discussing deterministic vs. probabilistic Turing
-	  machines and how probabilistic ones can solve the square root modulo a prime problem.
+	  machines and how probabilistic ones can efficiently solve the square root modulo a prime problem.
 
 - Compare classic probability to quantum probability (first page of online lecture notes in yellow of notebook)
 	* Probability amplitudes
@@ -15,8 +20,8 @@ Topics to Cover in the Lecture:
 
 - Quantum bits (qubits)
 	* Recall that classical bits are represented by electrical current on a wire (0mW = 0, +5mW = 1)
-	  and suggest that quantum bits are represented by atomic molecules (either by the excitement of
-	  an electron or the spin of something else).
+	  and suggest that quantum bits are represented by atomic molecules (a two-level system: either by the excitement of
+	  an electron, its spin, or something else).
 	* Introduce the two state vectors |0> and |1> (column vector form)
 	* Introduce the general column vector of a qubit being a linear combination of the two
 	  state vectors (superposition) (computing book pg.18 part 1.6.3) and that 
