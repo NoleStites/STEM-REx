@@ -8,6 +8,15 @@ Unanswered:
 - Why are only reversable gates used in circuits?
 - How is the general state of a qubit written in terms of sine and cosine? And is this form purely for use on the
   Bloch sphere?
+	* One-half of the answer: the sine and cosine part:
+	  first, the general form of the state of a qubit: |a|^2 * |0> + |b|^2 * |1>, such that
+	  |a|^2 + |b|^2 = 1 (Born's Rule) (Normalization Constraint).
+	  We know that |a| has to be between 0 and 1, so we can substitute it with cos(theta/2) since that
+	  also results in a value between 0 and 1. Now because of the normalization constraint,
+	  [cos(theta/2)]^2 + [temp]^2 = 1, where "temp" is our substitute for |b|. A basic rule of trigonometry is
+	  that cos^2(angle) + sin^2(angle) = 1, therefore "temp", and consequently |b|, can be substituted with
+	  sin(theta/2), resulting in the new general form:
+	  cos(theta/2)*|0> + sin(theta/2)*|1>.
 - What does it mean for a quantum gate to be a "unitary operator"
 ====================================
 Answered (-ish):
@@ -16,4 +25,26 @@ Answered (-ish):
 	* So far, I believe this to be because a qubit's basis states (as represented by classical binary) are
 	  equivalent to normal bits, but those are a small subset of all of the possible states for a qubit
 	  (that is, the entangled states make ups the rest of the total states)
+- What is the origin of the Hadamard gate?
+	* We need to use the sine/cosine general form of the state of a qubic:
+	  cos(theta/2)*|0> + sin(theta/2)*|1>
+	  Now, imagine a 2-dimensional Bloch Sphere where basis state |0> is at the north pole and |1> is
+	  at the south pole, such that there is a pi rotation between them (unit circle logic).
+	  To get from state |0> to the right (so halfway down to |1>), you must rotate theta = pi/2 (this state
+	  on the Bloch Sphere is often refered to as |+>).
+	  This is effectively the state representing the equal superposition of |0> and |1>, which is
+	  the functionality of the Hadamard gate. So how is a state jsut effected by the Hadamard gate
+	  represented?
+	  Representing this state using the general form shown above, we have:
+	  cos(theta/4)*|0> + sin(theta/4)*|1> after having had plugged in theta = pi/2. 
+	  Now we can get rid of the sine and cosine by solving for them using the unit circle and
+	  trigonometry.
+	  Looking at the unit circle, the angle theta/4 (45 degrees) is in the +x/+y section (first quadrant).
+	  Viewing the line from the origin to the point on the circle as length 1, to solve for cos(theta/4), we
+	  need to find the length of the bottom leg of the triangle, where the length 1 was the hypotenuse.
+	  Using trigonometry on a 45-45-90 triangle, we know that 1 = x*root(2), where x = cos(theta/4). 
+	  Therefore, x = cos(theta/4) = 1/root(2) <-- This look familiar? Hadamard stuff!
+	  So now we can rewrite the general form for the current state cos(theta/4)*|0> + sin(theta/4)*|1>
+	  (or |+>) to be 1/root(2)*|0> + 1/root(2)*|1>.
+	  Now just factor out the 1/root(2) and you've got Hadamard!
 
