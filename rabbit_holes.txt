@@ -33,7 +33,7 @@ Answered (-ish):
 	  To get from state |0> to the right (so halfway down to |1>), you must rotate theta = pi/2 (this state
 	  on the Bloch Sphere is often refered to as |+>).
 	  This is effectively the state representing the equal superposition of |0> and |1>, which is
-	  the functionality of the Hadamard gate. So how is a state jsut effected by the Hadamard gate
+	  the functionality of the Hadamard gate. So how is a state just effected by the Hadamard gate
 	  represented?
 	  Representing this state using the general form shown above, we have:
 	  cos(theta/4)*|0> + sin(theta/4)*|1> after having had plugged in theta = pi/2. 
@@ -44,6 +44,8 @@ Answered (-ish):
 	  need to find the length of the bottom leg of the triangle, where the length 1 was the hypotenuse.
 	  Using trigonometry on a 45-45-90 triangle, we know that 1 = x*root(2), where x = cos(theta/4). 
 	  Therefore, x = cos(theta/4) = 1/root(2) <-- This look familiar? Hadamard stuff!
+	  Also, just looking at the Unit Circle, you'll find the coordinate for pi/4 to be root(2)/2 for x and y.
+	  This fraction can be rewritten as our 1/root(2) with exponent rules.
 	  So now we can rewrite the general form for the current state cos(theta/4)*|0> + sin(theta/4)*|1>
 	  (or |+>) to be 1/root(2)*|0> + 1/root(2)*|1>.
 	  Now just factor out the 1/root(2) and you've got Hadamard!

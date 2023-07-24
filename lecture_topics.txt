@@ -6,6 +6,8 @@ An aside: after thinking about how best to give this lecture to an audience who 
 	  Information on the two spheres:
 	  (https://quantum-computing.ibm.com/lab/docs/iql/terms-glossary#term-backend:~:text=and%20simulators.-,Bloch%20sphere,-The%20Bloch%20sphere)
 
+	  Also, possibly lead up to an example of when quantum computing out-performs classical computing (The Deutsch oracle)
+
 - Differences between classical and quantum mechanics
 	* Discuss the size of the quantum world and why we're interested
 	* Classical vs. relative vs. quantum (needed a new ruleset for speed-of-light and quantum things)

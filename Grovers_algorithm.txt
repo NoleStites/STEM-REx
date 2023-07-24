@@ -1,0 +1,79 @@
+I think that ending the lecture with examples of when quantum computing outperforms classical computing would be a great idea.
+Grover's algorithm is one example which, I'd like to think, would blow the minds of the students as much as it did mine.
+
+IBM explanation: 				https://quantum-computing.ibm.com/lab/docs/iqx/guide/grovers-algorithm
+YouTube explanation (first 5:45 minutes): 	https://www.youtube.com/watch?v=KeJqcnpPluc
+
+Here is how it works:
+===============================
+
+
+Problem Statement
+------------------------------------
+Given an unstructured set of data, search for the piece of data that interests you.
+
+Using analogy: I ask you to guess my favorite number and I say that it is an integer in the range 1-100.
+Immediately we are given our set of data: the 100 integers between 1-100. 
+
+I am to be considered an oracle; given a number (or rather, a guess), I can tell you whether or not it is correct. I cannot, however, tell you
+what the answer is. In other words, I can verify your guess. This is anaolgous to a standard function call; the oracle might be the
+function "f" such that f(x) = 0 when the guess was incorrect and f(x) = 1 when it was correct.
+------------------------------------
+
+
+Classical vs. Quantum Efficiency
+------------------------------------
+Classically, you would start guessing (I mean, what else CAN you do?). Is it 12? Nope. 54? Nope. So how many guesses,
+in the worst case, would it take to determine my favorite number? It would take 99 guesses because, at that point, you
+would know that my favorite number is the one number you haven't guesses yet.
+
+In other words, given an unstructured set of N items, classically, it would take O(N) calls to the oracle to find what you are looking for
+in the set.
+
+Using quantum computing, however, the worst case is O(root(N)), meaning that if you were trying to find one number out of 1 million, you'd be 
+guessing 1 million times in the classical case and only 1,000 times in the quantum case. Big difference, right?!
+------------------------------------
+
+
+Step 1: Set Up The Qubits
+------------------------------------
+The number of qubits that you need to use depends on the number of items (pieces of data) there are to choose from. 
+N = number of items
+n = number of qubits
+
+We want 2^n to be greater than or equal to the number of items, this way we can have a qubit state to represent each item.
+Therefore, we need to find "n" such that N <= 2^n
+
+Item Count (N)	Value of "n"
+1-2		1
+3-4		2
+5-8		3
+9-16		4 (because 2^4 <= 16)
+...
+
+Now that we have chosen a sufficient number of qubits, all of which have been initialized to basis state |0>, we need
+to create a uniform superposition across all qubits such that each resulting state has a probability amplitude of
+1/root(N) to be chosen.
+
+Inital state of the system "s":
+|s> = 1/root(N) * sum_{x=0}^{N-1} |x>
+
+This means that each option has an equal chance of being chosen.
+Example using favorite number scenario:
+|s> = 1/root(100)(|1> + |2> + ... + |100>) such that the numbers 1-100 are actually encoded in binary.
+------------------------------------
+
+
+Step 2: Apply The Oracle
+------------------------------------
+The oracle, when applied to the state |s>, negates the amplitude of the solution. Say that my favorite number was 35; in this case, the oracle
+would not affect anything that wasn't state 35 (say |12> for example) but it would turn +|35> into -|35>
+------------------------------------
+
+
+Step 3: Apply The Diffuser
+------------------------------------
+to be continued.
+------------------------------------
+
+
