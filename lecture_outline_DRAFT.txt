@@ -1,0 +1,59 @@
+The following bullet points are ordered in the way that the lecture should, in my current opinion, be given in.
+===================================================================
+
+- Discuss the size of the quantum world and why we're interested
+	* Perhaps include a brief historical timeline here as well
+
+- Classical vs. relative vs. quantum
+	* Discuss the different rulesets associated with each and why they are needed. Why can't we just have one ruleset for ALL things?
+	* Perhaps use the experiment on pg.12 as a way to convice the class of the need for different rulesets
+
+- Introduce one of the key concepts of quantum computing: probability
+	* How could a probabilistic approach possibly be better than a deterministic one?
+	* Discuss the additional power of probability by discussing deterministic vs. probabilistic Turing
+	  machines and how probabilistic ones can efficiently solve the square root modulo a prime problem.
+
+- Introduce superposition
+	* Perform an interactive experiment with the class that demonstrates the thought behind Schrodinger's cat using a colorless marker put in a box, and a chance to come out as one of two colors (red or blue, for example).
+	* Notes on the experiment: refer to pg.4 for the original idea (please, do)
+	* Experiment is not finalized.
+
+- Introduce the qubit (only single qubits)
+	* Discuss key differences between classical bits and quantum bits
+	* Introduce the column vector form of a qubit (general form)
+	* Introduce Born's Rule / Normalization Constraint for probability amplitudes
+	* Briefly mention the phase factor, the fact that, most of the time, it equals zero, and that we will be ignoring it for simplicity
+
+- Discuss the representation of the state of multiple qubits
+	* Start with using column vector notation and discuss how the size of the vector grows exponentially with the number of qubits.
+	* Introduce Dirac (bra-ket) notation as a solution to the problem (use general form bottom of pg.17)
+	* Primarily use Dirac notation from this point forth
+
+- Introduce some single-qubit gates
+	* X (NOT gate)
+	* Hadamard gate
+	* Measurement gate
+	* Construct an example circuit using these gates as a demonstration
+
+- Introduce multi-qubit gates
+	* CNOT
+	* Construct an example circuit
+
+- Introduce the concept of entanglement
+	* Show how the four Bell states are formed (using H then CNOT on the four basis states |00>, |01>, |10>, |11> I think) (back of notes)
+	* Bring up the experiment of entanglement where you send one of the two entangled qubits far away, observe the first and now the value of the second is known (preferably source an actual experiment).
+
+- Grover's Algorithm
+	* Use Dirac notation to represent the uniform superposition and the graphical representation for the rest.
+
+- Other algorithms, perhaps
+
+- Quantum teleportation?
+
+===================================================================
+
+TOPICS TO BE ADDED:
+- Qubits have exponentially more states than a classical bit
+- ALL Pauli gates
+- Bloch Sphere (maybe)
+- Unitary and reversible gates

@@ -73,7 +73,18 @@ would not affect anything that wasn't state 35 (say |12> for example) but it wou
 
 Step 3: Apply The Diffuser
 ------------------------------------
-to be continued.
+It would be best to only use the geometry depiction of the problem at this point since the math behind
+the diffuser is lengthy and involves linear algebra. 
+The basic idea is that is takes all of the states and flips them over the current average, which was lowered
+in Step 2 with the negation of the item we are searching for (often referred to as |w>).
+As a result, the item we are searching for is significantly more likely to be chosen than its counterparts.
+------------------------------------
+
+
+Step 4: Repeat Until Near Certainty
+------------------------------------
+Continually repeat Steps 2-3 until the probability of choosing what you are searching for is near certain.
+The number of times that you need to repeat the previous steps is root(N).
 ------------------------------------
 
 

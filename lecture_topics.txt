@@ -29,7 +29,7 @@ An aside: after thinking about how best to give this lecture to an audience who 
 	  state vectors (superposition) (computing book pg.18 part 1.6.3) and that 
 	  prob1 squared + prob2 squared = 1 (Normalization Constraint)
 	* Possibly introduce phase factor (pg.18)
-	* Talk of how a qubic has exponentially more states than a classical bit
+	* Talk of how a qubit has exponentially more states than a classical bit
 	  (is the linear combination of states the reason for this?)
 
 - Single-qubit gates (NOT [X], Hadamard, Y, Z, etc.) (pg.8)
