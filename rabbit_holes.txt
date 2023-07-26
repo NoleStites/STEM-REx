@@ -22,9 +22,9 @@ Unanswered:
 Answered (-ish):
 
 - How do qubits have exponentially more states than classical bits?
-	* So far, I believe this to be because a qubit's basis states (as represented by classical binary) are
-	  equivalent to normal bits, but those are a small subset of all of the possible states for a qubit
-	  (that is, the entangled states make ups the rest of the total states)
+	* Take, for example, two classical bits and two qubits. Classically, there are 4 available states for the bits to represent, but the classical bits
+	  can only represent one at a time. Qubits, however, can represent all 4 states at the same time using superposition.
+	  If you add more bits to a regular computer, it can still only deal with one state at a time. But as you add qubits, the power of your quantum computer grows exponentially.
 - What is the origin of the Hadamard gate?
 	* We need to use the sine/cosine general form of the state of a qubic:
 	  cos(theta/2)*|0> + sin(theta/2)*|1>

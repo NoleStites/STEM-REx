@@ -37,6 +37,7 @@ The following bullet points are ordered in the way that the lecture should, in m
 6. Discuss the representation of the state of multiple qubits
 	* Start with using column vector notation and discuss how the size of the vector grows exponentially with the number of qubits.
 	* Introduce Dirac (bra-ket) notation as a solution to the problem (use general form bottom of pg.17)
+	* Cut in with an explanation as to why a qubit can store exponentially more information than a bit (refer to rabbit-hole)
 	* Primarily use Dirac notation from this point forth
 
 7. Introduce some single-qubit gates
