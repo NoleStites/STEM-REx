@@ -45,6 +45,7 @@ The following bullet points are ordered in the way that the lecture should, in m
 	* Hadamard gate
 	* Measurement gate
 	* Construct an example circuit using these gates as a demonstration
+	* Introduce the properties of a quantum circuit: depth, space (width), and total gates.
 
 8. Introduce multi-qubit gates
 	* CNOT
