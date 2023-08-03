@@ -29,10 +29,31 @@ Lecture Goals:
 	- Present the general form of the column vector of a qubit using alpha and beta
 		* Also use the alpha/beta notation to rewrite the Normalization formula
 
-4. Introduce Single-Qubit Gates
+4. Discuss the Representation of the State of Multiple Qubits
+	- Start with using column vector notation and discuss how the size of the vector grows exponentially with the number of qubits.
+	- Introduce Dirac (bra-ket) notation as a solution to the problem (use general form bottom of pg.17)
+	- Cut in with an explanation as to why a qubit can store exponentially more information than a bit (refer to rabbit-hole)
+	- Primarily use Dirac notation from this point forth
+
+5. Introduce Single-Qubit Gates
+	- X (NOT gate)
+	- Hadamard gate
+		* Have the students recall the "coin flip" gate introduced in Step 3 and say that the Hadamard gate is almost equivalent to it
+		* Demonstrate the behavior of a back-to-back Hadamard and how it doesn't behave as intuition suggests (that is, like a double coin flip) (for now, blame it on the strange behavior of quantum mechanics)
+	- Construct an example circuit using these gates as a demonstration
+	- Introduce the properties of a quantum circuit: depth, space (width), and total gates.
+
+6. Introduce a Multi-Qubit Gate
+	- CNOT
+	- Construct an example circuit
+
+7. Introduce the BQP Complexity Class
+	- To be determined...
 
 
-inf. Classical Mechanics vs. Relativity vs. Quantum Mechanics
+Quantum-Complex Content for the End:
+====================================
+A. More About the "Quantum" in Quantum Computing
 	- Classical Mechanics
 		* Everything that you know and love
 		* Isaac Newton (17th century)
@@ -41,8 +62,20 @@ inf. Classical Mechanics vs. Relativity vs. Quantum Mechanics
 		* Einstein's Theory of Relativity in 1905 and 1915
 		* Describes objects moving close to the speed of light
 		* Classical mechanics cannot explain objects moving this fast
+		* Transition: which brings us to the quantum world...
 	- Quantum Mechanics
 		* Created in the 1920s by Erwin Schrodinger, Paul Dirac, and others
 		* Describes objects at an atomic/subatomic scale
 		* Cannot be explained by classical mechanics
 		* Quantum computing harnesses the power of quantum mechanics
+	- Perhaps use the experiment on pg.12 as a way to convice the class of the need for different rulesets
+
+B. Superposition
+	- Give a very basic definition of superposition and reveal that, in using the Hadamard gate, the students have been working with superposition all along
+	- Describe the famous Schrodinger's Cat thought experiment
+
+C. Entanglement
+
+D. Heisenburg Uncertainty Principle
+
+E. Measurement

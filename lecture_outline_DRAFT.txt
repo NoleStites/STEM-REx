@@ -63,9 +63,3 @@ The following bullet points are ordered in the way that the lecture should, in m
 12 Quantum teleportation?
 
 ===================================================================
-
-TOPICS TO BE ADDED:
-- Qubits have exponentially more states than a classical bit
-- ALL Pauli gates
-- Bloch Sphere (maybe)
-- Unitary and reversible gates
