@@ -1,0 +1,48 @@
+This document represents the second draft of my lecture outline.
+
+Lecture Goals:
+1. Introduce the basics of quantum computing
+2. Introduce new and relevant complexity classes and the relationships between them
+================================================================
+
+1. Deterministic Classical Computing Recap
+	- Given an input, you can determine what the output will be
+	- Algorithms have complexities often based on the input size
+	- Bring up P and NP and the associated complexity diagram (P is a subset of NP)
+	- Introduce the PSPACE complexity class and edit the complexity diagram
+	- Transition: quantum computing does not use a deterministic approach
+
+2. Introduce Probabilistic Classical Computing
+	- Introduce the BPP complexity class and edit the complexity diagram
+	- How can a probabilistic approach outperform a deterministic one?
+		* Discuss the doubts and confusions you had about probabilistic algorithms
+		* Discuss how to modify a probabilistic algorithm to better your odds (refer to "Important" on pg.29 in notes)
+
+3. Introduction of Probability in Quantum Computing
+	- Compare classical bits to their probabilistic counterpart
+		* For the comparison, use a classic NOT gate to represent the deterministic behavior of a classical bit and use a "coin flip" gate to represent the probabilistic behavior of a quantum bit (qubit) (start using the term "measure" to refer to observing the state of the ouput)
+	- Demonstrate the need for a new way to represent the state of this qubit
+		* A classical bit only needs one value to represent its current state, but a qubit needs to store two values: a percentage for 0 and a percentage for 1
+		* Suggest the use of a column vector to store these values (at this point, the column vector example uses whole numbers like (50% 50%) or (75% 25%)
+	-  Introduce Born's Rule / Normalization Constraint for probability amplitudes
+		* Through this redefinition of probability, you can introduce probability amplitudes and give an example of how it is no longer the column vector (50% 50%) but rather (1/root(2) 1/root(2))
+	- Present the general form of the column vector of a qubit using alpha and beta
+		* Also use the alpha/beta notation to rewrite the Normalization formula
+
+4. Introduce Single-Qubit Gates
+
+
+inf. Classical Mechanics vs. Relativity vs. Quantum Mechanics
+	- Classical Mechanics
+		* Everything that you know and love
+		* Isaac Newton (17th century)
+		* Describes the motion of macroscopic objects
+	- Relativity
+		* Einstein's Theory of Relativity in 1905 and 1915
+		* Describes objects moving close to the speed of light
+		* Classical mechanics cannot explain objects moving this fast
+	- Quantum Mechanics
+		* Created in the 1920s by Erwin Schrodinger, Paul Dirac, and others
+		* Describes objects at an atomic/subatomic scale
+		* Cannot be explained by classical mechanics
+		* Quantum computing harnesses the power of quantum mechanics
