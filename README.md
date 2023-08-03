@@ -1,2 +1,2 @@
 ## Complexity Diagram
-![]()
+![](ComplexityDiagram.jpg)
