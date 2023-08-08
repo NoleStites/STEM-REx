@@ -1,0 +1,10 @@
+Works Cited:
+============
+1. "An Introduction to Quantum Computing"
+   Phillip Kaye, Raymond Laflamme and Michele Mosca
+
+2. "The Strange World of Quantum Mechanics"
+   Daniel F. Styer
+
+3. "Quantum Computing Since Democritus"
+   Scott Aaronson

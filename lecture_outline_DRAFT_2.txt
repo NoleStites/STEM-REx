@@ -14,6 +14,14 @@ Lecture Goals:
 
 2. Introduce Probabilistic Classical Computing
 	- Introduce the BPP complexity class and edit the complexity diagram
+		* From the Sipser-Lautemann theorem, it follows that if P = NP, then P = BPP
+		* All problems in P are obviously also in BPP. However, many problems have been known to be in BPP but not known to be in P.
+		  The number of such problems is decreasing, and it is conjectured that P = BPP (Wikipedia)
+		* For an example problem that is in BPP but not known to be in P, use the Polynomial Identity 
+Testing problem:
+		  https://en.wikipedia.org/wiki/BPP_(complexity)#:~:text=.%5B1%5D-,Problems,-%5Bedit%5D
+		  Thorough explaination: https://cs.stanford.edu/~mpkim/notes/lec5.pdf
+		* Thing to say: Why does BPP exist? Well, honestly, it almost doesn't. One of the first problems in the class was primality testing, but a deterministic solution to that was soon found by {people here}. Problems that belong to the class are slowly being derandomized into a deterministic equivalent, making people believe that, perhaps, BPP=P.
 	- How can a probabilistic approach outperform a deterministic one?
 		* Discuss the doubts and confusions you had about probabilistic algorithms
 		* Discuss how to modify a probabilistic algorithm to better your odds (refer to "Important" on pg.29 in notes)
@@ -39,7 +47,7 @@ Lecture Goals:
 	- X (NOT gate)
 	- Hadamard gate
 		* Have the students recall the "coin flip" gate introduced in Step 3 and say that the Hadamard gate is almost equivalent to it
-		* Demonstrate the behavior of a back-to-back Hadamard and how it doesn't behave as intuition suggests (that is, like a double coin flip) (for now, blame it on the strange behavior of quantum mechanics)
+		* Demonstrate the behavior of a back-to-back Hadamard and how it doesn't behave as intuition suggests (that is, like a double coin flip) (for now, blame it on the strange behavior of quantum mechanics, when really it is because all gates are reversible)
 	- Construct an example circuit using these gates as a demonstration
 	- Introduce the properties of a quantum circuit: depth, space (width), and total gates.
 
@@ -47,8 +55,21 @@ Lecture Goals:
 	- CNOT
 	- Construct an example circuit
 
-7. Introduce the BQP Complexity Class
-	- To be determined...
+7. Break
+	- Possibly include a demonstration in the IBM Circuit Maker
+	- Possibly include a brief 5-10 minute break
+
+8. Introduce the BQP Complexity Class
+	- Essentially the same as the BPP complexity class, only instead of using a classical Turing machine,
+	  we use a quantum Turing machine and hence have the benefits of quantum mechanics (superposition, entanglement, etc.)
+	
+	Problems in BQP but not in BPP:
+	- Integer Factorization: Find an integer's prime factors
+		* Randomized time complexity 2^O( n^1/3 * (log n)^2/3 )
+			# Mention the Number Field Sieve, which is the fastest classical algorithm to factor numbers larger than 10
+		* Shor's algorithm can solve it in quantum polynomial time
+		* Multiplying two prime numbers is a key part of RSA encryption, so being able to factor a number into two primes is the first step to decrypt a message
+		* https://complexityzoo.net/Complexity_Garden#integer_factorization
 
 
 Quantum-Complex Content for the End:
