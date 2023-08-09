@@ -50,5 +50,7 @@ that accepts with probability greater than 2/3 if yes, or less than 1/3 if no.
 Problem Statement   
 : 
 
-> TODO: Understand how best to describe the problem. It is quite difficult at present.
+> TODO: Understand how best to describe the problem; it is quite difficult at present. Also,
+> look into why it's important. I know it has to do with bipartite graphs, but what are their
+> significance?
 ---
