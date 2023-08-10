@@ -64,6 +64,7 @@
 
 - Normalization Constraint: (percentage to be 0) + (percentage to be 1) = 100%
 
+> The chances of each event occurring, when added together, should equal 100%.
 > I know that this is, perhaps, a bit obvious, but it is important nonetheless.
 
 ---
