@@ -91,7 +91,7 @@
 - |1|^2 = 1 = 100% chance of being in state 0
 - |0|^2 = 0 = 0% chance of being in state 1
 
-> Now what do you think the 50/50 state would look like?
+> Now what do you think the 50/50 state would look like? {on white board...}
 > We know by Born's rule that 1/2 = |prob. amplitude|^2
 > We can take the square root of both sides to get the probability amplitude 1/root(2)
 > So this should be the 50/50 state:
