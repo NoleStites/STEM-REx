@@ -20,7 +20,7 @@ Lecture Goals:
 		* For an example problem that is in BPP but not known to be in P, use the Polynomial Identity 
 Testing problem:
 		  https://en.wikipedia.org/wiki/BPP_(complexity)#:~:text=.%5B1%5D-,Problems,-%5Bedit%5D
-		  Thorough explaination: https://cs.stanford.edu/~mpkim/notes/lec5.pdf
+		  Thorough explanation: https://cs.stanford.edu/~mpkim/notes/lec5.pdf
 		* Thing to say: Why does BPP exist? Well, honestly, it almost doesn't. One of the first problems in the class was primality testing, but a deterministic solution to that was soon found by {people here}. Problems that belong to the class are slowly being derandomized into a deterministic equivalent, making people believe that, perhaps, BPP=P.
 	- How can a probabilistic approach outperform a deterministic one?
 		* Discuss the doubts and confusions you had about probabilistic algorithms
@@ -39,7 +39,8 @@ Testing problem:
 
 4. Discuss the Representation of the State of Multiple Qubits
 	- Start with using column vector notation and discuss how the size of the vector grows exponentially with the number of qubits.
-	- Introduce Dirac (bra-ket) notation as a solution to the problem (use general form bottom of pg.17)
+	- Introduce Dirac (bra-ket) notation as a solution to the problem (use general form bottom of pg.17 for
+	single qubit, and top of pg.23 for two qubits)
 	- Cut in with an explanation as to why a qubit can store exponentially more information than a bit (refer to rabbit-hole)
 	- Primarily use Dirac notation from this point forth
 
@@ -94,6 +95,7 @@ A. More About the "Quantum" in Quantum Computing
 B. Superposition
 	- Give a very basic definition of superposition and reveal that, in using the Hadamard gate, the students have been working with superposition all along
 	- Describe the famous Schrodinger's Cat thought experiment
+	- Mention that this is the reason why a qubit can store exponentially more info than a qubit
 
 C. Entanglement
 
