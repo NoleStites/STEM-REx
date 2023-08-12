@@ -5,7 +5,7 @@
 
 *BPP (Bounded-Error Probabilisitic Polynomial-Time)*    
 : the class of decision problems for which there exists a polynomial-time randomized algorithm
-that accepts with probability greater than $2/3$ if yes, or less than 1/3 if no.
+that accepts with probability greater than $\frac{2}{3}$ if yes, or less than 1/3 if no.
 
 > The 2/3 and 1/3 constants are really just placeholders. 1/3, for example, can actually be
 > any constant less than 1/2 just as 2/3 can be any constant greater than 1/2.
