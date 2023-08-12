@@ -5,10 +5,10 @@
 
 *BPP (Bounded-Error Probabilisitic Polynomial-Time)*    
 : the class of decision problems for which there exists a polynomial-time randomized algorithm
-that accepts with probability greater than $\frac{2}{3}$ if yes, or less than 1/3 if no.
+that accepts with probability greater than $\frac{2}{3}$ if yes, or less than $\frac{1}{3}$ if no.
 
-> The 2/3 and 1/3 constants are really just placeholders. 1/3, for example, can actually be
-> any constant less than 1/2 just as 2/3 can be any constant greater than 1/2.
+> The $\frac{2}{3}$ and $\frac{1}{3}$ constants are really just placeholders. $\frac{1}{3}$, for example, can actually be
+> any constant less than $\frac{1}{2}$ just as $\frac{2}{3}$ can be any constant greater than $\frac{1}{2}$.
 > 
 > Problems in this class are similar to deterministic algorithms, only now they have access to
 > a source of randomness. Think of a Turing machine that can use a coin flipper.
@@ -16,8 +16,8 @@ that accepts with probability greater than $\frac{2}{3}$ if yes, or less than 1/
 > Now a question that you may be asking yourself is "why would anyone use a program that has a
 > chance to be wrong?" Well, here is a solution:
 >
-> Suppose you are given a BPP algorithm that errs with probability 1/3. We can easily modify the
-> algorithm to err with probability (say) 2^{-100}. All you have to do is rerun the algorithm a
+> Suppose you are given a BPP algorithm that errs with probability $\frac{1}{3}$. We can easily modify the
+> algorithm to err with probability (say) $2^{-100}$. All you have to do is rerun the algorithm a
 > few hundred times, then output the majority answer!
 >
 > There is something called the Chernoff bound that tells us that we'll be wrong with a
