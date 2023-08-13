@@ -14,6 +14,5 @@ digraph
 	"borns_rule" -> "column_vector_for_single_qubit";
 	"normalization_constraint" -> "column_vector_for_single_qubit";
 	"the_qubit" -> "column_vector_for_single_qubit";
-	"probability_amplitudes" -> "borns_rule";
 	"classical_vs_quantum_bit" -> "the_qubit";
 }
