@@ -13,6 +13,5 @@ digraph
 	"column_vector_for_single_qubit" -> "column_vector_for_multiple_qubits";
 	"borns_rule" -> "column_vector_for_single_qubit";
 	"normalization_constraint" -> "classical_vs_quantum_bit";
-	"the_qubit" -> "column_vector_for_single_qubit";
-	"classical_vs_quantum_bit" -> "the_qubit";
+	"classical_vs_quantum_bit" -> "column_vector_for_single_qubit";
 }
