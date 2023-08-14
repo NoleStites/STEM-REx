@@ -36,3 +36,14 @@ Exercise: draw the state of a qubit with a 25% chance of being measured as a 0 a
 measured as a 1.
 
 > - Work out the answer on the whiteboard.
+
+The general form of a single qubit is
+
+$$
+\begin{pmatrix}
+\alpha_0 \\
+\alpha_1
+\end{pmatrix}
+$$
+
+where $\alpha_0$ is the probability amplitude associated with state 0 and $\alpha_1$ is the probability amplitude associated with state 1.
