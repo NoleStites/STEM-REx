@@ -115,3 +115,4 @@ the result of flipping two coins.
 Question: why do you think that column vector form isn't used in practice?
 
 > - Answer: too many zeroes.
+> - The size of the column vector grows exponentially with the number of qubits.
