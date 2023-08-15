@@ -22,12 +22,12 @@ $$
 where $\alpha_0$ and $\alpha_1$ are the probability amplitudes associated with states 0 and 1 respectively.
 
 State 0:   
-$| \psi \rangle = 1 \cdot| 0 \rangle + 0 \cdot | 1 \rangle$      
-$| \psi \rangle = | 0 \rangle$
+$\hspace{8em}$ $| \psi \rangle = 1 \cdot| 0 \rangle + 0 \cdot | 1 \rangle$      
+$\hspace{8em}$ $| \psi \rangle = | 0 \rangle$
 
 State 1:   
-$| \psi \rangle = 0 \cdot | 0 \rangle + 1 \cdot | 1 \rangle$      
-$| \psi \rangle = | 1 \rangle$
+$\hspace{8em}$ $| \psi \rangle = 0 \cdot | 0 \rangle + 1 \cdot | 1 \rangle$      
+$\hspace{8em}$ $| \psi \rangle = | 1 \rangle$
 
 > - Dirac notation follows the rules of algebra (for the most part)
 
