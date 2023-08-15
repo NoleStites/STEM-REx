@@ -6,12 +6,37 @@ dot -Tpng graph.gv -o graph.png
 
 digraph 
 {
-	"dirac_notation" -> "representing_a_qubit";
+	bgcolor="#999999"
+	
+	// Graph 1: main quantum content
 	"dirac_for_multiple_qubits" -> "dirac_notation";
-	"dirac_for_one_qubit" -> {"dirac_for_multiple_qubits" "dirac_notation"};
-	"column_vector_for_multiple_qubits" -> "dirac_for_one_qubit";
+	"dirac_for_one_qubit" -> "dirac_for_multiple_qubits";
+	"column_vector_for_multiple_qubits" -> "column_vector_form";
+	"column_vector_form" -> "dirac_for_one_qubit";
 	"column_vector_for_single_qubit" -> "column_vector_for_multiple_qubits";
-	"borns_rule" -> "column_vector_for_single_qubit";
+	{"classical_vs_quantum_bit" "borns_rule"} -> "the_qubit";
+	"the_qubit" -> "column_vector_for_single_qubit";
 	"normalization_constraint" -> "classical_vs_quantum_bit";
-	"classical_vs_quantum_bit" -> "column_vector_for_single_qubit";
+	"dirac_notation" -> {"x_gate" "hadamard_gate"};
+	{"x_gate" "hadamard_gate"} -> "properties_of_circuits";
+	"properties_of_circuits" -> "single_qubit_gates";
+	"single_qubit_gates" -> "cnot_gate";
+	"cnot_gate" -> "multi_qubit_gates";
+
+	// Graph 1 summaries
+	"the_qubit"[color="purple"];
+	"column_vector_form"[color="purple"];
+	"dirac_notation"[color="purple"];
+	"single_qubit_gates"[color="purple"];
+	"multi_qubit_gates"[color="purple"];
+
+	// Graph 2: complexity classes
+	"class_bqp" -> "complexity_classes";
+	"class_bpp" -> {"class_bqp" "complexity_classes"};
+	"class_p_np" -> {"class_bpp" "complexity_classes"};
+	"class_pspace" -> "complexity_classes";
+	"probabilistic_vs_deterministic_computing" -> "class_bpp";
+
+	// Graph 2 summaries
+	"complexity_classes"[color="purple"];
 }
