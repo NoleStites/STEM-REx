@@ -2,6 +2,8 @@
 - The size and contents of a qubit's (or group of qubits') column vector corresponds with binary:
 $2^{(\text{number of qubits})}$
 
+> - You need an entry in the column vector for every possible state that the number of qubits can make.
+
 **1 Qubit** : column vector size = $2^1$
 
 $$
@@ -109,3 +111,7 @@ the result of flipping two coins.
 
 > - Work out the answer on the whiteboard.
 > - Give an example of a 3-qubit state to cement the idea.
+
+Question: why do you think that column vector form isn't used in practice?
+
+> - Answer: too many zeroes.
