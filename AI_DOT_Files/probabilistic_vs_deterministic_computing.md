@@ -9,6 +9,8 @@
 *Classical*    
 : refers to an object being governed by Newtonian physics
 
+> Quantum computing uses a probabilistic approach, not deterministic.
+
 ### Probabilistic Classical Computing
 
 - Similar to deterministic algorithms, only now we have access to a source of perfect randomness
