@@ -98,6 +98,7 @@ B. Superposition
 	- Mention that this is the reason why a qubit can store exponentially more info than a qubit
 
 C. Entanglement
+	- Generate the Bell states with Hadamard & CNOTC
 
 D. Heisenburg Uncertainty Principle
 
