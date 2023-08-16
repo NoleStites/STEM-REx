@@ -18,10 +18,10 @@ digraph
 	"the_qubit" -> "column_vector_for_single_qubit";
 	"normalization_constraint" -> "classical_vs_quantum_bit";
 	"dirac_notation" -> {"x_gate" "hadamard_gate"};
-	{"x_gate" "hadamard_gate"} -> "properties_of_circuits";
-	"properties_of_circuits" -> "single_qubit_gates";
+	{"x_gate" "hadamard_gate"} -> "single_qubit_gates";
+	"properties_of_circuits" -> "multi_qubit_gates";
 	"single_qubit_gates" -> "cnot_gate";
-	"cnot_gate" -> "multi_qubit_gates";
+	"cnot_gate" -> "properties_of_circuits";
 
 	// Graph 1 summaries
 	"the_qubit"[color="purple"];
