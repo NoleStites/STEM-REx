@@ -32,11 +32,15 @@ digraph
 
 	// Graph 2: complexity classes
 	"class_bqp" -> "complexity_classes";
-	"class_bpp" -> {"class_bqp" "complexity_classes"};
-	"class_p_np" -> {"class_bpp" "complexity_classes"};
-	"class_pspace" -> "complexity_classes";
-	"probabilistic_vs_deterministic_computing" -> "class_bpp";
+	"class_bpp" -> "class_bqp";
+	{"class_p_np" "class_pspace"} -> "class_bpp";
+	"probabilistic_vs_deterministic_computing" -> {"class_p_np" "class_pspace"};
 
 	// Graph 2 summaries
 	"complexity_classes"[color="purple"];
+
+	// Graph 3: quantum weirdness
+	"intro_to_quantum" -> "heisenburg_uncertainty_principle";
+	"heisenburg_uncertainty_principle" -> "superposition";
+	"superposition" -> "entanglement";
 }
