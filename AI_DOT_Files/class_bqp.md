@@ -1,6 +1,6 @@
 ## Class BQP
 
-*BQP (Bounded-Error Quantum Polynomial-Time)*
+*BQP (Bounded-Error Quantum Polynomial-Time)*     
 : the class of decision problems for which there exists a polynomial-time quantum algorithm
 that accepts with probability greater than $\frac{2}{3}$ if yes, or less than $\frac{1}{3}$ if no.
 
