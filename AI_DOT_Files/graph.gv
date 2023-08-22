@@ -33,8 +33,8 @@ digraph
 	// Graph 2: complexity classes
 	"class_bqp" -> "complexity_classes";
 	"class_bpp" -> "class_bqp";
-	{"class_p_np" "class_pspace"} -> "class_bpp";
-	"probabilistic_vs_deterministic_computing" -> {"class_p_np" "class_pspace"};
+	"probabilistic_vs_deterministic_computing" -> "class_bpp";
+	{"class_p_np" "class_pspace"} -> "probabilistic_vs_deterministic_computing";
 
 	// Graph 2 summaries
 	"complexity_classes"[color="purple"];
