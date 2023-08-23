@@ -40,7 +40,6 @@ digraph
 	"complexity_classes"[color="purple"];
 
 	// Graph 3: quantum weirdness
-	"intro_to_quantum" -> "heisenburg_uncertainty_principle";
-	"heisenburg_uncertainty_principle" -> "superposition";
+	"intro_to_quantum" -> "superposition";
 	"superposition" -> "entanglement";
 }
