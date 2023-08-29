@@ -1,0 +1,29 @@
+/*
+To compile into a png:
+dot -Tpng graph_DRAFT_2.gv -o graph_DRAFT_2.png
+*/
+
+
+digraph 
+{
+	bgcolor="#999999"
+	
+	// Graph 1: main quantum content
+	"dirac_for_multiple_qubits" -> {"x_gate" "hadamard_gate"};
+	"dirac_for_one_qubit" -> "dirac_for_multiple_qubits";
+	"column_vector_for_multiple_qubits" -> "dirac_for_one_qubit";
+	"column_vector_for_single_qubit" -> "column_vector_for_multiple_qubits";
+	{"classical_vs_quantum_bit" "borns_rule"} -> "column_vector_for_single_qubit";
+	"normalization_constraint" -> "classical_vs_quantum_bit";
+	{"x_gate" "hadamard_gate"} -> "cnot_gate";
+	"cnot_gate" -> "properties_of_circuits";
+
+	// Graph 2: complexity classes
+	"class_bpp" -> "class_bqp";
+	"probabilistic_vs_deterministic_computing" -> "class_bpp";
+	{"class_p_np" "class_pspace"} -> "probabilistic_vs_deterministic_computing";
+
+	// Graph 3: quantum weirdness
+	"intro_to_quantum" -> "superposition";
+	"superposition" -> "entanglement";
+}
