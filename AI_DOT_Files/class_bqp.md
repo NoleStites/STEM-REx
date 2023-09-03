@@ -10,6 +10,7 @@ that accepts with probability greater than $\frac{2}{3}$ if yes, or less than $\
 ![](Pictures/p_np_pspace_bpp_bqp_diagram.png)
 - BPP $\subseteq$ BQP. Why?
   - Anything that can be done on a classical probabilistic computer can be done on a quantum computer.
+    
 [//]: # (This is because Coin Flip = Hadamard gate.)
 
 A problem in BQP but not in BPP: integer factorization.
