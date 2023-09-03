@@ -26,4 +26,4 @@ $$
 Exercise: Apply the CNOT gate to two qubits, one of which was in state 0 and is in the coin flip state and the
 other is in state 0.
 
-> - Work out the answer on the whiteboard.
+[//]: # (Work out the answer on the whiteboard.)
