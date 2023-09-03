@@ -10,4 +10,4 @@ out. The probability of getting the red ball might be $\frac{1}{3}$, as would yo
 chances of getting the green and blue balls. Overall, the probability of grabbing *any*
 ball is $\frac{1}{3}$ + $\frac{1}{3}$ + $\frac{1}{3}$ = 1.
 
-> - Ask for any questions and move on.
+[//]: # (Ask for any questions and move on.)
