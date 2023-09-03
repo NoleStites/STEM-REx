@@ -13,4 +13,4 @@ ex: Given an assignment of variables for a SAT problem, you can easily verify th
 
 - {P/NP diagram}
 
-> - Relationship between P and NP is not strict. P could equal NP.
+[//]: # (Relationship between P and NP is not strict. P could equal NP.)
