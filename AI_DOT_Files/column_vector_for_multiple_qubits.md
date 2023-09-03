@@ -2,7 +2,7 @@
 - The size and contents of a qubit's (or group of qubits') column vector corresponds with binary:
 $2^{(\text{number of qubits})}$
 
-> - You need an entry in the column vector for every possible state that the number of qubits can make.
+[//]: # (You need an entry in the column vector for every possible state that the number of qubits can make.)
 
 **1 Qubit** : column vector size = $2^1$
 
@@ -52,7 +52,7 @@ $$
 \end{pmatrix}
 $$
 
-> - Mention how the 2-qubit vectors are just binary 00, 01, 10, 11 going down the entries.
+[//]: # (Mention how the 2-qubit vectors are just binary 00, 01, 10, 11 going down the entries.)
 
 General Form:
 - Given two qubits $\alpha$ and $\beta$, the combined state of both qubits can be represented like so:
@@ -75,8 +75,8 @@ $$
 \end{pmatrix}
 $$
 
-> - The operation is called tensor product, but won't be discussed.
-> - In essence, take every possible combination of the 2 qubits to form the new column vector.
+[//]: # (The operation is called tensor product, but won't be discussed.)
+[//]: # (In essence, take every possible combination of the 2 qubits to form the new column vector.)
 
 Example: given a qubit in state 1 and another qubit in state 0, what is their combined state?
 
@@ -104,15 +104,15 @@ $$
 \end{pmatrix}
 $$
 
-> - Notice how the answer correlates with 10 because the first qubit was 1 and the second was 0.
+[//]: # (Notice how the answer correlates with 10 because the first qubit was 1 and the second was 0.)
 
 Exercise: if a single qubit can be used to represent a coin flip, then find the state that represents
 the result of flipping two coins.
 
-> - Work out the answer on the whiteboard.
-> - Give an example of a 3-qubit state to cement the idea.
+[//]: # (Work out the answer on the whiteboard.)
+[//]: # (Give an example of a 3-qubit state to cement the idea.)
 
 Question: why do you think that column vector form isn't used in practice?
 
-> - Answer: too many zeroes.
-> - The size of the column vector grows exponentially with the number of qubits.
+[//]: # (Answer: too many zeroes.)
+[//]: # (The size of the column vector grows exponentially with the number of qubits.)
