@@ -11,6 +11,6 @@ proof of the fact that you can check in polynomial time
 
 ex: Given an assignment of variables for a SAT problem, you can easily verify the solution
 
-- {P/NP diagram}
+![](Pictures/p_np_diagram.png)
 
 [//]: # (Relationship between P and NP is not strict. P could equal NP.)
