@@ -6,7 +6,7 @@ its efficiency, but not always.
 *PSPACE (Polynomial-Space)*    
 : the class of problems solvable in polynomial space, but unlimited time
 
-- {Add PSPACE to the diagram}
+![](Pictures/p_np_pspace_diagram.png)
 - Question: Why does PSPACE encapsulate everything?
 
 [//]: # (Answer: accessing memory = 1 unit of time; can't access more than poly in poly-running time.)
