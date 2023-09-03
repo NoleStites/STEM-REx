@@ -14,11 +14,12 @@ For each of the following circuits...
 a. Find the state of the computer at the end of the circuit.       
 b. Find the depth, space, and total gates.      
 
-> - Use $|\psi\rangle$ (psi/"sigh") for each step in the circuit
+[//]: # (Use $|\psi\rangle$ -- psi/"sigh" -- for each step in the circuit)
 
 1. ![](Pictures/circuit_1.png)
 
-> - Walk through example 1 step-by-step
+[//]: # (Walk through example 1 step-by-step)
+
 ---
 2. ![](Pictures/circuit_2.png)
 ---
