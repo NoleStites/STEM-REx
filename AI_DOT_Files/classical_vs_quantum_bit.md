@@ -20,6 +20,5 @@ Exercise 2: fill out the truth table below.
 |   0   |        |
 |   1   |        |
 
-> - We don't know the value of the output until we measure it, similar to flipping a
-> coin.
-> - Recall that the output values must meet the Normalization Constraint.
+[//]: # (We don't know the value of the output until we measure it, similar to flipping a coin.)
+[//]: # (Recall that the output values must meet the Normalization Constraint.)
