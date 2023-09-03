@@ -1,0 +1,27 @@
+/*
+To compile into a png:
+dot -Tpng graph_DRAFT_3.gv -o graph_DRAFT_3.png
+*/
+
+
+digraph 
+{
+	bgcolor="#999999"
+
+	// Graph contents, top to bottom
+	{"class_p_np" "class_pspace"} -> "probabilistic_vs_deterministic_computing";
+	"probabilistic_vs_deterministic_computing" -> "normalization_constraint";
+	"normalization_constraint" -> "class_bpp";
+	"class_bpp" -> "classical_vs_quantum_bit";
+	{"classical_vs_quantum_bit" "borns_rule"} -> "column_vector_for_single_qubit";
+	"column_vector_for_single_qubit" -> "column_vector_for_multiple_qubits";
+	"column_vector_for_multiple_qubits" -> "dirac_for_one_qubit";
+	"dirac_for_one_qubit" -> "dirac_for_multiple_qubits";
+	"dirac_for_multiple_qubits" -> {"x_gate" "hadamard_gate"};
+	{"x_gate" "hadamard_gate"} -> "cnot_gate";
+	"cnot_gate" -> "properties_of_circuits";
+	"properties_of_circuits" -> "class_bqp";
+	"class_bqp" -> "intro_to_quantum";
+	"intro_to_quantum" -> "superposition";
+        "superposition" -> "entanglement";
+}

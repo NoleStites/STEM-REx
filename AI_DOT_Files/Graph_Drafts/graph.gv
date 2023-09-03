@@ -1,0 +1,45 @@
+/*
+To compile into a png:
+dot -Tpng graph.gv -o graph.png
+*/
+
+
+digraph 
+{
+	bgcolor="#999999"
+	
+	// Graph 1: main quantum content
+	"dirac_for_multiple_qubits" -> "dirac_notation";
+	"dirac_for_one_qubit" -> "dirac_for_multiple_qubits";
+	"column_vector_for_multiple_qubits" -> "column_vector_form";
+	"column_vector_form" -> "dirac_for_one_qubit";
+	"column_vector_for_single_qubit" -> "column_vector_for_multiple_qubits";
+	{"classical_vs_quantum_bit" "borns_rule"} -> "the_qubit";
+	"the_qubit" -> "column_vector_for_single_qubit";
+	"normalization_constraint" -> "classical_vs_quantum_bit";
+	"dirac_notation" -> {"x_gate" "hadamard_gate"};
+	{"x_gate" "hadamard_gate"} -> "single_qubit_gates";
+	"properties_of_circuits" -> "multi_qubit_gates";
+	"single_qubit_gates" -> "cnot_gate";
+	"cnot_gate" -> "properties_of_circuits";
+
+	// Graph 1 summaries
+	"the_qubit"[color="purple"];
+	"column_vector_form"[color="purple"];
+	"dirac_notation"[color="purple"];
+	"single_qubit_gates"[color="purple"];
+	"multi_qubit_gates"[color="purple"];
+
+	// Graph 2: complexity classes
+	"class_bqp" -> "complexity_classes";
+	"class_bpp" -> "class_bqp";
+	"probabilistic_vs_deterministic_computing" -> "class_bpp";
+	{"class_p_np" "class_pspace"} -> "probabilistic_vs_deterministic_computing";
+
+	// Graph 2 summaries
+	"complexity_classes"[color="purple"];
+
+	// Graph 3: quantum weirdness
+	"intro_to_quantum" -> "superposition";
+	"superposition" -> "entanglement";
+}
