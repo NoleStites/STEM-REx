@@ -7,7 +7,7 @@ that accepts with probability greater than $\frac{2}{3}$ if yes, or less than $\
 [//]: # ($\frac{2}{3}$ is any constant greater than $\frac{1}{2}$)     
 [//]: # ($\frac{1}{3}$ is any constant less than $\frac{1}{2}$)
 
-- {Add BQP to diagram}
+![](Pictures/p_np_pspace_bpp_bqp_diagram.png)
 - BPP $\subseteq$ BQP. Why?
   - Anything that can be done on a classical probabilistic computer can be done on a quantum computer.
 [//]: # (This is because Coin Flip = Hadamard gate.)
