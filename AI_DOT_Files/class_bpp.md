@@ -7,7 +7,7 @@ that accepts with probability greater than $\frac{2}{3}$ if yes, or less than $\
 [//]: # ($\frac{2}{3}$ is any constant greater than $\frac{1}{2}$)     
 [//]: # ($\frac{1}{3}$ is any constant less than $\frac{1}{2}$)
 
-- {Add BPP to diagram}
+![](Pictures/p_np_pspace_bpp_diagram.png)
 - Question: Why are all problems in P also in BPP
 
 [//]: # (Reason: both solve in P time and any problem in P can add randomness and not use it)
