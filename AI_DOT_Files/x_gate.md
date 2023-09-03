@@ -50,4 +50,4 @@ Exercise:
 $\frac{1}{2}|0\rangle + \frac{\sqrt{3}}{2}|1\rangle$      
 (b) What is the probability, when measuring the resulting qubit, of getting state 0? State 1?
 
-> - Work out the answer on the whiteboard.
+[//]: # (Work out the answer on the whiteboard.)
