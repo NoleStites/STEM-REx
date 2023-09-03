@@ -4,12 +4,12 @@
 *Deterministic*     
 : given an input to a function/program/algorithm, you can be certain of the output
 
-> - The types of algorithms that they have been making (for the most part) in CS
+[//]: # (The types of algorithms that they have been making, for the most part, in CS)
 
 *Classical*    
 : refers to an object being governed by Newtonian physics
 
-> Quantum computing uses a probabilistic approach, not deterministic.
+[//]: # (Quantum computing uses a probabilistic approach, not deterministic.)
 
 ### Probabilistic Classical Computing
 
@@ -27,7 +27,7 @@ your odds of getting the correct result?
 <ins>Answer</ins>:   
 Run the algorithm a few hundred times and take the majority answer!
 
-> - The chance of being wrong is incredibly small at this point.
+[//]: # (The chance of being wrong is incredibly small at this point.)
 
 *Chernoff Bound*
 : you will be wrong with a probability that decreases exponentially with the number of trials run.
