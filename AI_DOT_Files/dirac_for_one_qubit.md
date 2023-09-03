@@ -1,16 +1,16 @@
 ## Dirac Notation for One Qubit
 
-> - Paul Dirac was an English theoretical physicist.
+[//]: # (Paul Dirac was an English theoretical physicist.)
 
 - Also known as "bra-ket" notation
 
-> - The symbols below are Greek psi ("sigh") and phi
+[//]: # (The symbols below are Greek psi ("sigh") and phi)
 
 'ket' $\to | \psi \rangle$    
 'bra' $\to \langle \psi |$    
 'bra-ket' $\to \langle \psi | \phi \rangle$
 
-> - Only using 'ket' for the rest of the lecture.
+[//]: # (Only using 'ket' for the rest of the lecture.)
 
 - Dirac notation still uses probability amplitudes.     
 - General Form:
@@ -29,10 +29,10 @@ State 1:
 $\hspace{8em}$ $| \psi \rangle = 0 \cdot | 0 \rangle + 1 \cdot | 1 \rangle$      
 $\hspace{8em}$ $| \psi \rangle = | 1 \rangle$
 
-> - Dirac notation follows the rules of algebra (for the most part)
+[//]: # (Dirac notation follows the rules of algebra (for the most part))
 
 Exercise: write the coin flip state in Dirac notation.
 
-> - Work out the answer on the whiteboard.
-> - We still follow Born's rule and the normalization constraint.
-> - Only difference is the notation.
+[//]: # (Work out the answer on the whiteboard.)
+[//]: # (We still follow Born's rule and the normalization constraint.)
+[//]: # (Only difference is the notation.)
