@@ -9,4 +9,4 @@ its efficiency, but not always.
 - {Add PSPACE to the diagram}
 - Question: Why does PSPACE encapsulate everything?
 
-> - Answer: accessing memory = 1 unit of time; can't access more than poly in poly-running time.
+[//]: # (Answer: accessing memory = 1 unit of time; can't access more than poly in poly-running time.)
