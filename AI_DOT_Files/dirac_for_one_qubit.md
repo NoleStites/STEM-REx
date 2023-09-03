@@ -29,7 +29,7 @@ State 1:
 $\hspace{8em}$ $| \psi \rangle = 0 \cdot | 0 \rangle + 1 \cdot | 1 \rangle$      
 $\hspace{8em}$ $| \psi \rangle = | 1 \rangle$
 
-[//]: # (Dirac notation follows the rules of algebra (for the most part))
+[//]: # (Dirac notation follows the rules of algebra for the most part)
 
 Exercise: write the coin flip state in Dirac notation.
 
