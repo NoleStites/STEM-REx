@@ -3,8 +3,8 @@
 [//]: # (Paul Dirac was an English theoretical physicist.)
 
 - Also known as "bra-ket" notation
-
-[//]: # (The symbols below are Greek psi ("sigh") and phi)
+  
+[//]: # (The symbols below are Greek psi "sigh" and phi)
 
 'ket' $\to | \psi \rangle$    
 'bra' $\to \langle \psi |$    
