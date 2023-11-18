@@ -1,0 +1,12 @@
+Pre-Lecture Questionnaire:
+
+1. On a scale from 1-10, how curious are you about quantum computing?
+2. What are some questions about quantum computing that you hope will be answered by this lecture?
+------
+Post-Lecture Questionnaire:
+
+1. Now that the lecture is done, how curious are you about quantum computing on a scale from 1-10? (see if they gained curiousity)
+2. What did you enjoy most about the lecture? What had you engaged in the lecture? Why?
+3. What did you enjoy least about the lecture? What had you dozing off? Why?
+4. Was there a concept that you wish were discussed in the lecture but wasn't?
+------
