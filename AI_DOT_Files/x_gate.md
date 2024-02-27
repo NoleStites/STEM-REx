@@ -29,6 +29,10 @@ $$
 \end{pmatrix}
 $$
 
+$$
+\alpha_0 | 0 \rangle + \alpha_1 | 1 \rangle \to \alpha_1 | 0 \rangle + \alpha_0 | 1 \rangle
+$$
+
 - The X gate swaps the probability amplitudes associated with state 0 and 1 for a single qubit
 
 Example: What is the result of applying the X gate to the coin-flip state?
