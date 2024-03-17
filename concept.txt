@@ -1,0 +1,29 @@
+
+## Concept
+Over the summer, conduct research into teaching quantum computing.
+NOTE: you are not trying to push the boundaries of quantum computing,
+
+The project will have three pieces:
+1. Learn the basics of quantum computing, both the theory and tools.
+
+2. Develop a presentation about your work. This is more meta than the deliverable lecture, as it talks about what you are doing, not just quantum computing.
+
+3. Develop one 2-hour class of material, including lecture and 1 assignment that contains a theoretical component and a hands-on programming component.
+
+#2 is for the faculty, #3 is for the students.
+
+
+## Resources
+- Quantum Computing Field Guide
+https://quantum-computing.ibm.com/lab/docs/iqx/guide
+
+- Qiskit Website
+https://qiskit.org/
+
+- Qiskit Textbook
+https://qiskit.org/learn/
+
+
+NOTES:
+- On the IBM Quantum home page, it gives you an API key; perhaps we can create an assignment that uses the IBM Quantum API on a students' local system to do something.
+
