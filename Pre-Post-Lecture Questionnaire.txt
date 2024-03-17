@@ -1,12 +1,14 @@
 Pre-Lecture Questionnaire:
 
-1. On a scale from 1-10, how curious are you about quantum computing?
-2. What are some questions about quantum computing that you hope will be answered by this lecture?
+1. What do you already know about quantum computing?
+2. On a scale from 1-10, how confident do you feel about your understanding of quantum computing?
+3. What specific aspects of quantum computing are you most interested in learning about?
 ------
 Post-Lecture Questionnaire:
 
-1. Now that the lecture is done, how curious are you about quantum computing on a scale from 1-10? (see if they gained curiousity)
-2. What did you enjoy most about the lecture? What had you engaged in the lecture? Why?
+1. On a scale of 1 to 10, how would you rate your understanding of quantum computing now compared to before the lecture?
+2. What did you enjoy most about the lecture? What had you engaged? Why?
 3. What did you enjoy least about the lecture? What had you dozing off? Why?
-4. Was there a concept that you wish were discussed in the lecture but wasn't?
+4. Were there any concepts or ideas that were particularly challenging or difficult to grasp during the lecture?
+5. What aspects of the lecture format or delivery do you think could be improved? 
 ------

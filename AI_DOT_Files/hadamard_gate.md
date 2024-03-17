@@ -12,6 +12,11 @@ $$
 |1\rangle \to \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)
 $$
 
+Example:    
+Apply the Hadamard gate to the following qubit: $\frac{\sqrt{3}}{2}|0\rangle + \frac{1}{2}|1\rangle$.   
+$H(\frac{\sqrt{3}}{2}|0\rangle + \frac{1}{2}|1\rangle)$    
+$= H(\frac{\sqrt{3}}{2}|0\rangle) + H(\frac{1}{2}|1\rangle)$    
+
 [//]: # (There are negative amplitudes, but the chances are still the same.)
 
 Question: Considering that the Hadamard gate simulates a coin flip by creating a 50/50 chance of measuring
