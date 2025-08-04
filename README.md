@@ -44,4 +44,3 @@ This lecture was designed for upper-level undergraduate computer science student
 
 - Supported by Southern Oregon University through the STEM-REx program.
 - Special thanks to Professor Daniel DeFreez for mentoring me and to the students who participated in the presentation.
-- 
